@@ -174,7 +174,7 @@ export const DATA = {
       dates: "Feb 2025-April 2025",
       active: true,
       description:
-        "Me and my friend trying to start a startup that helps users to get legal and financial services from professionals. It's website is built with Next.js and Node.js and its app was build on expo. Eventually lack of knowledge and some legal issues we had to stop the project. but we learned a lot from this project. you can check the blog about it on my blog.",
+        "Me and my friends trying to start a startup that helps users to get legal and financial services from professionals. It's website is built with Next.js and Node.js and its app was build on expo. Eventually lack of knowledge and some legal issues we had to stop the project. but we learned a lot from this project. you can check the blog about it on my blog.",
       technologies: [
         "Expo",
         "Typescript",
