@@ -4,7 +4,7 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 export const DATA = {
   name: "Nikhil",
   initials: "N",
-  url: "https://aman-gamma-khaki.vercel.app/",
+  url: "https://nikhil-tawny.vercel.app/",
   location: "New Delhi, India",
   locationUrl: "https://www.google.com/maps/place/newdelhi",
   description:
@@ -190,7 +190,7 @@ export const DATA = {
         },
         {
           type: "Blog",
-          href: "https://aman-gamma-khaki.vercel.app/blog/get-a-pro",
+          href: "https://nikhil-tawny.vercel.app/blog/get-a-pro",
           icon: <Icons.globe className="size-3" />,
         }
       ],
