@@ -68,15 +68,17 @@ export const DATA = {
 
   work: [
     {
-  company: "Kamal Associates",
-  href: "https://www.kamalassociate.com/",
-  location: "On-site — New Delhi",
-  title: "React Native Developer",
-  logoUrl: "https://www.kamalassociate.com/_next/image?url=%2Flogo.png&w=1080&q=75",
-  start: "Sep 2025",
-  end: "",
-  description: "At Kamal Associates, I contribute as a React Native Developer, enhancing the UI of their flagship mobile app and resolving critical bugs in their CRM system. I am also leading the development of 'Kamal Housing' from the ground up, collaborating closely with a senior web developer and a UI designer to create a seamless, feature-rich experience for users. My work spans React Native, Next.js, and Mongo DB, ensuring scalable and high-performance applications."
-},
+      company: "Kamal Associates",
+      href: "https://www.kamalassociate.com/",
+      location: "On-site — New Delhi",
+      title: "React Native Developer",
+      logoUrl:
+        "https://www.kamalassociate.com/_next/image?url=%2Flogo.png&w=1080&q=75",
+      start: "Sep 2025",
+      end: "",
+      description:
+        "At Kamal Associates, I contribute as a React Native Developer, enhancing the UI of their flagship mobile app and resolving critical bugs in their CRM system. I am also leading the development of 'Kamal Housing' from the ground up, collaborating closely with a senior web developer and a UI designer to create a seamless, feature-rich experience for users. My work spans React Native, Next.js, and Mongo DB, ensuring scalable and high-performance applications.",
+    },
     {
       company: "Freelance",
       href: "#",
@@ -99,11 +101,10 @@ export const DATA = {
       start: "Feb 2025",
       end: "April 2025",
       description:
-        "I developed the mobile application for our startup using React Native (Expo), TypeScript, Redux, nativeWind, and React Navigation. I was responsible for building and maintaining the app’s core features, ensuring smooth cross-platform performance. Alongside my technical work, I also led the recruitment and onboarding of professionals into our platform. This was a part of a startup which my friends and I tried to start to help users access legal and financial services from verified professionals."
+        "I developed the mobile application for our startup using React Native (Expo), TypeScript, Redux, nativeWind, and React Navigation. I was responsible for building and maintaining the app’s core features, ensuring smooth cross-platform performance. Alongside my technical work, I also led the recruitment and onboarding of professionals into our platform. This was a part of a startup which my friends and I tried to start to help users access legal and financial services from verified professionals.",
     },
   ],
   education: [
-
     {
       school: "Indira Gandhi National Open University",
       href: "https://www.ignou.ac.in/",
@@ -112,7 +113,6 @@ export const DATA = {
       start: "2025",
       end: "2028",
     },
-
   ],
   projects: [
     {
@@ -138,11 +138,10 @@ export const DATA = {
           type: "Linkedin post",
           href: "https://www.linkedin.com/feed/update/urn:li:activity:7357810464338153472/",
           icon: <Icons.globe className="size-3" />,
-        }
+        },
       ],
       image: "/ss.png",
-      video:
-        "",
+      video: "",
     },
     {
       title: "ImgReady",
@@ -151,12 +150,7 @@ export const DATA = {
       active: true,
       description:
         "A lightweight Android app that makes image conversion and compression effortless—no desktop or third-party sites needed. Built with Expo and a custom REST API, imgReady lets you capture, convert, compress, and share images in 10+ formats (JPG, PNG, PDF, HEIC, and more). Designed for privacy, it works entirely on-device and integrates smoothly with your favorite apps like WhatsApp, Gmail, and mobile browsers. Ad-supported (via AdMob) and child-safe, it’s built for real-world use—especially when dealing with uploads to government or official portals.",
-      technologies: [
-        "Expo",
-        "Typescript",
-        "Google Play Console",
-        "Render",
-      ],
+      technologies: ["Expo", "Typescript", "Google Play Console", "Render"],
       links: [
         {
           type: "Play Store",
@@ -172,11 +166,10 @@ export const DATA = {
           type: "Github",
           href: "https://github.com/nikhil-df/ImgReady",
           icon: <Icons.globe className="size-3" />,
-        }
+        },
       ],
       image: "/image.png",
-      video:
-        "",
+      video: "",
     },
     {
       title: "Get a Pro",
@@ -185,13 +178,7 @@ export const DATA = {
       active: true,
       description:
         "Me and my friends trying to start a startup that helps users to get legal and financial services from professionals. It's website is built with Next.js and Node.js and its app was build on expo. Eventually lack of knowledge and some legal issues we had to stop the project. but we learned a lot from this project. you can check the blog about it on my blog.",
-      technologies: [
-        "Expo",
-        "Typescript",
-        "NativeWind",
-        "Redux",
-        "Supabase",
-      ],
+      technologies: ["Expo", "Typescript", "NativeWind", "Redux", "Supabase"],
       links: [
         {
           type: "Website",
@@ -202,11 +189,10 @@ export const DATA = {
           type: "Blog",
           href: "https://nikhil-phi.vercel.app/blog/get-a-pro",
           icon: <Icons.globe className="size-3" />,
-        }
+        },
       ],
       image: "/getapro.png",
-      video:
-        "",
+      video: "",
     },
     {
       title: "MultiCalc",
@@ -215,27 +201,21 @@ export const DATA = {
       active: true,
       description:
         "A powerful calculator app that lets you create and switch between multiple calculators—each with its own history and editable past calculations. Built with React Native, Expo, and Redux, MultiCalc is designed for multitaskers who want more than just one static calculator. Easily transfer values between calculators, revisit and modify previous steps, and stay organized with a clean, intuitive interface. Perfect for anyone who juggles multiple math tasks or needs persistent, flexible calculation history.",
-      technologies: [
-        "Expo",
-        "Typescript",
-        "Redux",
-      ],
+      technologies: ["Expo", "Typescript", "Redux"],
       links: [
         {
           type: "Github",
           href: "https://github.com/nikhil-df/MultiCalc",
           icon: <Icons.globe className="size-3" />,
-        },{
+        },
+        {
           type: "Linkedin post",
           href: "https://www.linkedin.com/feed/update/urn:li:activity:7350504434411421697/",
           icon: <Icons.globe className="size-3" />,
-        }
+        },
       ],
       image: "/nor.png",
-      video:
-        "",
+      video: "",
     },
-
   ],
-
 } as const;
