@@ -67,6 +67,18 @@ export const DATA = {
   },
 
   work: [
+        {
+      company: "Kamal Associates",
+      href: "https://www.kamalassociate.com/",
+      location: "On-site — New Delhi",
+      title: "React Native Developer",
+      logoUrl:
+        "https://www.kamalassociate.com/_next/image?url=%2Flogo.png&w=1080&q=75",
+      start: "Sep 2025",
+      end: "",
+      description:
+        "At Kamal Associates, I contribute as a React Native Developer, enhancing the UI of their flagship mobile app and resolving critical bugs in their CRM system. I am also leading the development of 'Kamal Housing' from the ground up, collaborating closely with a senior web developer and a UI designer to create a seamless, feature-rich experience for users. My work spans React Native, Next.js, and Mongo DB, ensuring scalable and high-performance applications.",
+    },
     {
       company: "Freelance",
       href: "#",
