@@ -70,6 +70,7 @@ export const DATA = {
         {
       company: "Kamal Associates",
       href: "https://www.kamalassociate.com/",
+      badges: [],
       location: "On-site — New Delhi",
       title: "React Native Developer",
       logoUrl:
